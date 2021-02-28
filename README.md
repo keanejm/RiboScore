@@ -1,2 +1,2 @@
 # RiboScore
-RiboScore is a tool for quantitatively accessing the quality of ribosome profiling data
+RiboScore is a tool for quantitatively accessing the quality of ribosome profiling data. The software takes Ribo-seq data that is mapped to the genome and assigns scores to data features that reflect the quality of the dataset, including the proportion of reads mapping to coding regions compared to untranslated regions, the heterogeneity of read distribution along coding regions, triplet periodicity and sequencing bias. The software is written in python (version 2.7.6). 
