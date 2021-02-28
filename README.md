@@ -21,4 +21,7 @@ Run RiboScore using the following command:
 python Scripts/riboscore.py /Inputs/Sequence/hg38.fa ./Inputs/Annotations/refGene.txt ./Inputs/Bam_Files/ ./Inputs/Offsets/ ./Outputs/Calviello16/ Calviello16
 ```
 
+## RiboScore Outputs
+1. A pdf file featuring one page per data file. Each page contains plots illustrating the datasets Gene Body Distribution, Gini Index, Triplet Periodicity and Metafootprint Profile. A barplots illustrates how each of these features relate to dataset qualty on a scale between 0 and 1. Finally, each features score and and overall summary score for the dataset are outlined. 
+2. A png file featuring a summary score logo is outputed for each individual dataset. Datasets are given scores out of 100 and the contribution of each feature to the score is illustrated.
 
