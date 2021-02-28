@@ -1,0 +1,41 @@
+## date = '2021-02-27 20:01:09.124436'
+## execstr = '/home/jamesk/.local/bin/psite Metagene/Outputs/refGene_orfs_rois.txt ../RiboScore/Inputs/Offsets/SRR2433794 --min_length 25 --max_length 34 --aggregate --constrain 10 15 --default 12 --require_upstream --count_files ../RiboScore/Inputs/Bam_Files/SRR2433794.bam'
+## args = {  
+##          'aggregate'        : True,,
+##          'cmap'             : None,,
+##          'constrain'        : [10, 15],,
+##          'count_files'      : ['../RiboScore/Inputs/Bam_Files/SRR2433794.bam'],,
+##          'countfile_format' : 'BAM',,
+##          'default'          : 12,,
+##          'dpi'              : 150,,
+##          'figformat'        : 'png',,
+##          'figsize'          : None,,
+##          'keep'             : False,,
+##          'mapping'          : 'fiveprime',,
+##          'max_length'       : 34,,
+##          'min_counts'       : 10,,
+##          'min_length'       : 25,,
+##          'nibble'           : 0,,
+##          'norm_region'      : None,,
+##          'normalize_over'   : None,,
+##          'offset'           : 0,,
+##          'outbase'          : '../RiboScore/Inputs/Offsets/SRR2433794',,
+##          'require_upstream' : True,,
+##          'roi_file'         : 'Metagene/Outputs/refGene_orfs_rois.txt',,
+##          'stylesheet'       : None,,
+##          'sum'              : None,,
+##          'title'            : None,,
+##          'warnlevel'        : 0,
+##        }
+length	p_offset
+25	12
+26	12
+27	12
+28	12
+29	12
+30	12
+31	13
+32	12
+33	12
+34	12
+default	12
