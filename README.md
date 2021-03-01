@@ -1,6 +1,9 @@
 # RiboScore
 RiboScore is a tool for quantitatively accessing the quality of ribosome profiling data. The software takes Ribo-seq data that is mapped to the genome and assigns scores to data features that reflect the quality of the dataset, including the proportion of reads mapping to coding regions compared to untranslated regions, the heterogeneity of read distribution along coding regions, triplet periodicity and sequencing bias. The software is written in python (version 2.7.6). 
 
+## Dependencies
+argparse, Bio.SeqIO, collections, intervaltree, math, matplotlib, numpy, os, pandas, pylab, pysam, re, scipy, shelve, shutil, sys, time
+
 ## Prerequisites
 1. Input datasets must be mapped to the genome in bam format. Bam files must be sorted before indexing.
 2. Determine [p-site offsets](https://plastid.readthedocs.io/en/latest/examples/p_site.html) for each individual readlength using the python package [plastid](https://plastid.readthedocs.io/en/latest/quickstart.html) (version 0.4.8 or higher). The Plastid and its prerequisites can be installed using the following command:
